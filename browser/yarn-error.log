@@ -1,0 +1,37 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\24050\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add mocha --dev
+
+PATH: 
+  D:\python\Scripts\;D:\python\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;D:\Git\cmd;D:\TortoiseGit\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\24050\.windows-build-tools\python27\;C:\Users\24050\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;D:\PyCharm 2019.1.3\bin;C:\Users\24050\.dotnet\tools;C:\Users\24050\AppData\Local\atom\bin;C:\Users\24050\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  12.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+
+npm manifest: 
+  {
+    "name": "browser",
+    "version": "1.0.0",
+    "description": "JSP实验作业",
+    "main": "webpack.config.js",
+    "scripts": {
+      "test": "mocha"
+    },
+    "author": "西西",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

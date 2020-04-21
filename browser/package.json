@@ -1,0 +1,42 @@
+{
+  "name": "browser",
+  "version": "1.0.0",
+  "description": "JSP第六周实验作业",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "webpack",
+    "dev": "webpack-dev-server --open --contentBase src"
+  },
+  "author": "西西",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^3.5.2",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.2.0",
+    "mocha": "^7.1.1",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.1.4",
+    "url-loader": "^4.1.0",
+    "vue-loader": "^15.9.1",
+    "vue-loader-plugin": "^1.3.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "at-ui": "^1.3.3",
+    "at-ui-style": "^1.5.1",
+    "axios": "^0.19.2",
+    "qs": "^6.9.3",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.6"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-jwt": "^3.6.0",
+    "koa-router": "^8.0.8",
+    "koa2-cors": "^2.0.6",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.6",
+    "util": "^0.12.2"
+  },
+  "devDependencies": {
+    "http-proxy-middleware": "^1.0.3",
+    "mocha": "^7.1.1",
+    "nodemon": "^2.0.3"
+  }
+}
